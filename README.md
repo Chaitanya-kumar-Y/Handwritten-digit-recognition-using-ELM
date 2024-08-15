@@ -1,4 +1,4 @@
-# Handwritten-digit-recognition-using-ELM
+![path_summary_setup](https://github.com/user-attachments/assets/31df6994-5aa2-4ee0-b442-5bed6450f246)# Handwritten-digit-recognition-using-ELM
 
 # Description of Extreme Learning Machine(ELM) Model
 
@@ -43,29 +43,46 @@ Idea of randomly generating the input weights by LFSR to reduce the hardware for
 ![image](pictures/lfsr.png)
 
 ## Hardware Architecture
+![image](pictures/elm_hw.png)
+![image](pictures/fsm.png)
 
+## RTL View and Simulation
+
+![rtl_view](https://github.com/user-attachments/assets/58e7447b-b904-40e5-8f4b-13e3704adb53)
+![Final_transcript](https://github.com/user-attachments/assets/a8d5af18-4c8a-45e8-bd8a-cfa0bd85e23e)
+![detection_of_all_no](https://github.com/user-attachments/assets/d0e4adb4-6e5f-4ebd-933e-b7ca811e59de)
+
+## Cell Layout 
+### Serial adder layout
+![detailed_transistor_view](https://github.com/user-attachments/assets/6750947d-e201-432b-9296-d42439cdf7c9)
+
+### LFSR layout
+![layout_view](https://github.com/user-attachments/assets/408b9d4f-3e17-41f9-a431-4d1bbde62329)
+
+## Transistor Layout
+### Serial adder layout
+![transistor_view](https://github.com/user-attachments/assets/9c82b1e5-eb0d-416b-b532-8134ddc8f0d7)
+
+### LFSR layout
+
+![transistor_view](https://github.com/user-attachments/assets/895c62c2-57e3-494b-ad1b-bf1a81d360ea)
 
 
 ## STA Report
-Summary of setup slack and hold slack for the top-level module
+### Summary of setup slack 
 
-![image](https://github.com/vendraDp/AES_Vendra_Durgaprasad-/assets/107578770/857a4f35-68e0-4192-9a39-addedaeb419d)
+![setup_slack](https://github.com/user-attachments/assets/a01f03ac-0ac8-482e-977c-1fd6279fbc1c)
+
+### Maximum operable clock frequency
+ ![max_operable_frequency](https://github.com/user-attachments/assets/07b3143c-d5bc-4f96-889e-48ce63153209)
+
+### Critical path summary
+![path_summary_setup](https://github.com/user-attachments/assets/e6ed60f0-0a6a-4b61-ab50-11067cc62ef9)
+
+### Critical path in Chip planner
+![chip_planner_setup](https://github.com/user-attachments/assets/e243ef14-6c34-45f1-bedc-510739d1a9d5)
 
 
-Time period = 10ns, Setup slack = 3.972ns , Hold slack = 0.397ns 
-
-
-## Layout
-
-Layout of top module 
-
-### cell view
-
-![image](https://github.com/vendraDp/AES_Vendra_Durgaprasad-/assets/107578770/9b794c14-7df3-4b7f-a1e4-921f91220b04)
-
-### transistor-level view
-
-![image](https://github.com/vendraDp/AES_Vendra_Durgaprasad-/assets/107578770/c4ea8e39-ac82-44cd-b24f-1f4ccf09a8ad)
 
 
 
