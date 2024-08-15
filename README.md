@@ -1,15 +1,16 @@
 # Handwritten-digit-recognition-using-ELM
 
-# Hardware Efficient 256-bit AES Encryption and Decryption Algorithm
+# Description of Extreme Learning Machine(ELM) Model
 
 
 
-Data encryption has become an indispensable requirement in today’s apps, transactions, and
-webpages and the applications are endless. Along with encrypting the sensitive data, authenticity
-also needs to be verified. Many remote devices require an encryption scheme to transmit the
-information. I implemented an Advanced Encryption Standard (AES) encryption scheme that resists replay attacks.
-This repository contains the source codes and a brief description of Advanced Encrytion Standard using Verilog.
+ELM(Extreme Learning Machine) is a machine learning algorithm that uses a single layered hidden node and can produce acceptable predictive performance and their computational cost is much lower than networks trained by the backpropagation algorithm
 
+
+## Input nodes and weights
+  Input handwritten digit image of size 16*16(256bits) is fed to the model and input weights(W10) are randomly generated using LFSR module.
+  ### Hidden neuron value calculation
+  Weighted multiplication 
 
 ## Background: Cryptographic techniques 
 ### Symmetric-key cryptography
