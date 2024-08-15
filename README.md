@@ -1,4 +1,4 @@
-![path_summary_setup](https://github.com/user-attachments/assets/31df6994-5aa2-4ee0-b442-5bed6450f246)# Handwritten-digit-recognition-using-ELM
+# Handwritten-digit-recognition-using-ELM
 
 # Description of Extreme Learning Machine(ELM) Model
 
@@ -81,6 +81,8 @@ Idea of randomly generating the input weights by LFSR to reduce the hardware for
 
 ### Critical path in Chip planner
 ![chip_planner_setup](https://github.com/user-attachments/assets/e243ef14-6c34-45f1-bedc-510739d1a9d5)
+
+
 
 
 
